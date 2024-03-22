@@ -18,9 +18,13 @@ var tambahPenumpang = function(namaPenumpang, penumpang){
                 return penumpang;
             }
             // jika sudah ada nama yang sama
-            
-                // tampilkan pesan kesalahannya
+            else if(penumpang[i] == namaPenumpang){
+                  // tampilkan pesan kesalahannya
+                  console.log(namaPenumpang + "sudah ada di dalam angkot")
                 // kembalikan isi array & keluar dari function
+                return penumpang;
+            }
+              
             // jika seluruh kursi terisi
             else if (i == penumpang.length - 1){
                 // tambah penumpang di akhir array
