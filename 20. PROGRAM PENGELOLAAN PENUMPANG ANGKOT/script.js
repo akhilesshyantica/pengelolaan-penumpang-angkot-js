@@ -18,11 +18,17 @@ var tambahPenumpang = function(namaPenumpang, penumpang){
                 return penumpang;
             }
             // jika sudah ada nama yang sama
+            
                 // tampilkan pesan kesalahannya
                 // kembalikan isi array & keluar dari function
             // jika seluruh kursi terisi
+            else if (i == penumpang.length - 1){
                 // tambah penumpang di akhir array
+                penumpang.push(namaPenumpang);
                 // kembalikan isi array & keluar dari function
+                return penumpang;
+            }
+                
         }
     }
 }
