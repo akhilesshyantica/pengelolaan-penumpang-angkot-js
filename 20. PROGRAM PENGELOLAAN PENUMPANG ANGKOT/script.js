@@ -36,3 +36,16 @@ var tambahPenumpang = function(namaPenumpang, penumpang){
         }
     }
 }
+var hapusPenumpang = function(namaPenumpang, penumpang){
+    // jika angkot kosong
+        // tampilkan pesan bahwa angkot kosong dan tidak mungkin ada penumpang turun
+        // kembalikan isi array & keluar dari function
+    // else
+        // telusuri seluruh kursi dari awal
+            // jika nama penumpang sesuai
+                // hapus penumpang dengan mengubah namanya menjadi undefined
+                // kembalikan isi array & keluar dari function
+            // jika tidak ada nama yang sesuai
+                // tampilkan pesan kesalahannya
+                // kembalikan isi array & keluar dari function
+}
